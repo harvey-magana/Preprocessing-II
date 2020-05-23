@@ -279,9 +279,19 @@ nav a {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .home .content-pick {
+    display: block;
+  }
+}
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination {
+    width: 100%;
+  }
 }
 .home .content-pick .destination .btn {
   background-color: #17A2B8;
